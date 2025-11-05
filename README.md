@@ -1,4 +1,4 @@
-# SnapShrink 🖼️
+# PicSqueeze 🖼️
 
 A modern, mobile-first batch image resizer and compressor web app designed for photographers who want to quickly prepare images for social media.
 
@@ -22,7 +22,7 @@ A modern, mobile-first batch image resizer and compressor web app designed for p
 
 1. **Clone or download the project**
 ```bash
-cd snapshrink
+cd picsqueeze
 ```
 
 2. **Install dependencies**
@@ -160,7 +160,7 @@ src/
 
 ## 🤝 Contributing
 
-Feel free to submit issues, feature requests, or pull requests to improve SnapShrink!
+Feel free to submit issues, feature requests, or pull requests to improve PicSqueeze!
 
 ## 📄 License
 
@@ -168,4 +168,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-**SnapShrink** - Making image optimization simple, fast, and beautiful. ✨
+**PicSqueeze** - Making image optimization simple, fast, and beautiful. ✨

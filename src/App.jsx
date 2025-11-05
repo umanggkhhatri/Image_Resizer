@@ -113,7 +113,7 @@ function App() {
                 <ImageIcon className="w-5 h-5 text-white" />
               </div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent">
-                SnapShrink
+                PicSqueeze
               </h1>
             </motion.div>
             

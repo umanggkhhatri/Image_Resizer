@@ -4,7 +4,7 @@ import { saveAs } from 'file-saver';
 export const downloadAsZip = async (processedImages) => {
   try {
     const zip = new JSZip();
-    const folder = zip.folder('snapshrink-images');
+    const folder = zip.folder('picsqueeze-images');
     
     // Add each processed image to the ZIP
     for (const image of processedImages) {
@@ -32,7 +32,7 @@ export const downloadAsZip = async (processedImages) => {
     
     // Create download filename with timestamp
     const downloadTimestamp = new Date().toISOString().slice(0, 19).replace(/:/g, '-');
-    const downloadFilename = `snapshrink-${downloadTimestamp}.zip`;
+  const downloadFilename = `picsqueeze-${downloadTimestamp}.zip`;
     
     // Trigger download
     saveAs(zipBlob, downloadFilename);
